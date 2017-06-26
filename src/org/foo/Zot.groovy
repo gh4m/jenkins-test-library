@@ -2,9 +2,9 @@
 package org.foo;
 
 // test
-class Zot {
-  static def createFile(String filename1) {
+// class Zot {
+  def createFile(String filename1) {
     sh: "date > ${filename1}"
   }
-}
+//}
 
