@@ -2,5 +2,5 @@ package org.foo;
 
 def createNewFile(filename1) {
   echo "this is the date"
-  "date".execute()
+  println "date".execute()
 }
